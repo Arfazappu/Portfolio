@@ -1,0 +1,158 @@
+nav{
+    flex-direction: column;
+    height: fit-content;
+    padding: 5px 0;
+    text-align: center;
+}
+.list{
+    font-size: 0.8rem;
+    margin: 6px;
+}
+
+/* home section */
+#home{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+.col1{
+    height:160px ;
+    padding-top: 0;
+    margin-top: 75px;
+}
+.col1 img{
+    height:165px;
+}
+.col0{
+    text-align: center;
+}
+.greet{
+    font-size: 1.2rem;
+}
+.name{
+    font-size: 1.6rem;
+}
+.interest{
+    font-size: 1rem;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    font-size: 0.7rem;
+    margin: 10px 0;
+}
+.media-link i{
+    font-size: medium;
+    padding: 4px 7px;
+}
+.media-link span{
+    width: 30px;
+    height: 30px;
+    margin: 5px 1.5px;
+}
+.arrow-down{
+    display: none;
+}
+
+/* about section */
+#about{
+    padding: 1.5rem 1rem;
+    height: fit-content;
+}
+.head_main{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.underline::before{
+    width: 1.5rem;
+    height: 2.5px;
+    top: 25%;
+}
+.head_sub{
+    font-size: 0.8rem;
+    margin: 12px auto;
+    line-height: 1.5;
+}
+.content{
+    flex-direction: column;
+}
+.detail{
+    max-width: 100%;
+}
+.detail h3{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.detail .para{
+    margin: 9px 0;
+    line-height: 1.4;
+    font-size: 13px;
+}
+.cont-btn{
+    width: 90px;
+    height: 30px;
+    font-size: 0.7rem;
+    margin-top: 0px;
+}
+.skill{
+    max-width: 100%;
+}
+.skill h3{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.skill_box{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 0.7;
+}
+
+/* project section */
+#projects{
+    padding: 1.5rem 1rem;
+}
+.projects_content{
+    flex-direction: column;
+    text-align: center;
+    /* flex-wrap: nowrap; */
+}
+.box,.cal_box{
+    width:80%;
+    margin: 10px auto;
+}
+.box img,.cal_box img{
+    height: 130px;
+}
+.desc .box_head{
+    font-size: 0.9rem;
+}
+.desc .box_para{
+    font-size: 0.7rem;
+}
+
+/* contact section */
+#contact{
+    padding: 1.5rem 1rem;
+}
+.contact_content{
+    max-width: 75%;
+}
+.contact__form-label{
+    font-size: 0.8rem;
+    margin: 0.6rem 0;
+}
+.contact__form-input{
+    padding: 0.6rem;
+    font-size:0.8rem ;
+}
+
+/* footer section */
+#footer{
+    height: fit-content;
+}
+.foot_head{
+    font-size: small;
+}
+.foot_para{
+    font-size: x-small;
+}
