@@ -118,6 +118,7 @@ nav{
     text-align: center;
     /* flex-wrap: nowrap; */
     overflow-x: scroll;
+    overflow-y:hidden;
 }
 .box,.cal_box{
     width:80%;
