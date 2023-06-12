@@ -110,16 +110,20 @@ nav{
 /* project section */
 #projects{
     padding: 1.5rem 1rem;
+    height: 50vh;
 }
 .projects_content{
     flex-direction: column;
     text-align: center;
     /* flex-wrap: nowrap; */
+    overflow-x: scroll;
 }
 .box,.cal_box{
     width:80%;
-    margin: 10px auto;
+    /* margin: 10px auto; */
+    margin: 10px 10px;
 }
+
 .box img,.cal_box img{
     height: 130px;
 }
